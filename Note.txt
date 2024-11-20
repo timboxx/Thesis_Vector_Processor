@@ -1,0 +1,19 @@
+
+
+
+memory_generator: contains program_memory.py, used as the assembler. The input pipe is the assembly_code.txt and the output pipe is the code_out.coe
+	Instructions written to assembly_code.txt are converted into machine code. The code_out.coe is stored on data memory.
+	the folder others conatains undocumented programming scripts used to issue tcl commands or store random values into data memory in float or integer representation
+
+
+VFU_MEM_FINAL.rar - contains the vector floating-point processor project for Vivado version 2020.2
+		To program, the device use hardware manager and press program device. Then press the play on the debugger tool to obtain vector results. Probes need to be added in the probe list. 
+
+
+
+Benchmark.rar : gold/src contains assembly_vector_float.s which is the benchmark for VFP
+				assembly.s is the benchmark for ARM Cortex-R5 CPU
+
+the program might need to be generated using platform generated application. if being debugged on a new system. To access VFP use of the preproccesr command line instruction mention in the dissertation needs to be used.
+
+the platform for arm-cortex r5 can be generated through the project_1 folder.
